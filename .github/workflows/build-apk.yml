@@ -35,7 +35,7 @@ jobs:
         id: build
         shell: bash
         run: |
-          unzip -q SmartAutomationAndroid_Starter.zip -d extracted
+          unzip -q SmartAutomationAndroid.zip -d extracted
 
           SETTINGS=$(find extracted -type f \( \
             -name "settings.gradle.kts" -o \
